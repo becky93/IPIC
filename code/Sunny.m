@@ -1,0 +1,11 @@
+f=imread('G:\\seg17\\SAM_1082.JPG');%获取HSI图像
+f=imresize(f,0.8); 
+A=REG__HSI(f);
+H=A(:,:,1);
+S=A(:,:,2);
+I=A(:,:,3);
+I=myhisteq(I);;%对I分量均衡化
+I=im2double(I);
+B=cat(3,H,S,I);
+C=HSI__REG(B);
+imwrite(C,'G:\\seg17\sunny.jpg');

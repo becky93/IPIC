@@ -1,0 +1,32 @@
+function EI = histeq_gray(I)
+[row, col] = size(I);
+EI = zeros(row, col);
+histogram=zeros(256);
+cdf=zeros(256);
+
+%imhist(lenna)
+
+%get histogram
+for i=1:row
+   for j=1:col
+      k=I(i,j);
+      histogram(k+1)=histogram(k+1)+1;
+   end
+end
+%get cdf
+cdf(1)=histogram(1);
+for i=2:256
+   cdf(i)=cdf(i-1)+histogram(i);
+end
+%run point operation
+for i=1:row
+   for j=1:col
+		k=lenna(i,j);
+      EI(i,j)=((cdf(k+1))*256/(row*col));
+   end
+end
+EI = uint8(EI);
+
+%% fill the following section to equalize the historam of I, put the result in EI
+
+%%
