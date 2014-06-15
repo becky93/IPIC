@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.4" 
+	xmlns="http://java.sun.com/xml/ns/j2ee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee 
+	http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+  <display-name></display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>newUpload</servlet-name>
+    <servlet-class>Servlet.newUpload</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>newAlbum</servlet-name>
+    <servlet-class>Servlet.newAlbum</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>deletePhoto</servlet-name>
+    <servlet-class>Servlet.deletePhoto</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>deleteAlbum</servlet-name>
+    <servlet-class>Servlet.deleteAlbum</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddFriend</servlet-name>
+    <servlet-class>Servlet.AddFriend</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CloseUser</servlet-name>
+    <servlet-class>Servlet.CloseUser</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteFriend</servlet-name>
+    <servlet-class>Servlet.DeleteFriend</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>Servlet.Login</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>newRegister</servlet-name>
+    <servlet-class>Servlet.newRegister</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Register</servlet-name>
+    <servlet-class>Servlet.Register</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Setting</servlet-name>
+    <servlet-class>Servlet.Setting</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>WAnnounce</servlet-name>
+    <servlet-class>Servlet.WAnnounce</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>WarnUser</servlet-name>
+    <servlet-class>Servlet.WarnUser</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>black</servlet-name>
+    <servlet-class>Servlet.black</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>newShare</servlet-name>
+    <servlet-class>Servlet.newShare</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>picProcess</servlet-name>
+    <servlet-class>Servlet.picProcess</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>saveNewPic</servlet-name>
+    <servlet-class>Servlet.saveNewPic</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Password</servlet-name>
+    <servlet-class>Servlet.Password</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>newUpload</servlet-name>
+    <url-pattern>/newUpload</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>newAlbum</servlet-name>
+    <url-pattern>/newAlbum</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>deletePhoto</servlet-name>
+    <url-pattern>/deletePhoto</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>deleteAlbum</servlet-name>
+    <url-pattern>/deleteAlbum</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddFriend</servlet-name>
+    <url-pattern>/AddFriend</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CloseUser</servlet-name>
+    <url-pattern>/CloseUser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteFriend</servlet-name>
+    <url-pattern>/DeleteFriend</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>newRegister</servlet-name>
+    <url-pattern>/newRegister</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Register</servlet-name>
+    <url-pattern>/Register</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Setting</servlet-name>
+    <url-pattern>/Setting</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>WAnnounce</servlet-name>
+    <url-pattern>/WAnnounce</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>WarnUser</servlet-name>
+    <url-pattern>/WarnUser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>black</servlet-name>
+    <url-pattern>/black</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>newShare</servlet-name>
+    <url-pattern>/newShare</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>picProcess</servlet-name>
+    <url-pattern>/picProcess</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>saveNewPic</servlet-name>
+    <url-pattern>/saveNewPic</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Password</servlet-name>
+    <url-pattern>/Password</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
